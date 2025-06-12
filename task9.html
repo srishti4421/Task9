@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpage with Four Sections</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #555e16;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .section {
+            width: 200px;
+            background-color: white;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 10px;
+        }
+
+        .section img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .section h2 {
+            margin: 10px 0 0 0;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="section">
+            <img src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" alt="Home Icon">
+            <h2>Home</h2>
+        </div>
+        <div class="section">
+            <img src="https://cdn-icons-png.flaticon.com/512/1829/1829586.png" alt="Gallery Icon">
+            <h2>Gallery</h2>
+        </div>
+        <div class="section">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="About Icon">
+            <h2>About</h2>
+        </div>
+        <div class="section">
+            <img src="https://cdn-icons-png.flaticon.com/512/126/126509.png" alt="Contact Icon">
+            <h2>Contact</h2>
+        </div>
+    </div>
+
+</body>
+</html>
